@@ -1,0 +1,29 @@
+{
+  "info":"bakery products",
+  "list":[
+    {
+      "id":1,
+      "name":"Black Forest",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": 100
+    },
+    {
+      "id":2,
+      "name":"New York Cheesecake",
+      "description":"Phasellus consectetur turpis in sapien ullamcorper, quis pulvinar mauris semper",
+      "price": 200
+    },
+    {
+      "id":3,
+      "name":"Choco Lava Cake",
+      "description":"Vestibulum malesuada quam eget justo condimentum, eget auctor lorem ullamcorper",
+      "price": 150
+    },
+    {
+      "id":4,
+      "name":"Brownie",
+      "description":"Mauris vel sem lacinia, congue felis vel, porta lacus",
+      "price": 100
+    }
+  ]
+}
