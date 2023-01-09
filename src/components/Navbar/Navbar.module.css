@@ -22,3 +22,12 @@
   margin-right: 15rem;
 }
 
+@media (max-width : 1000px){
+  .bakeryHome{
+    margin-left: 10rem;
+  }
+
+  .rightPane{
+    margin-right: 10rem;
+  }
+}

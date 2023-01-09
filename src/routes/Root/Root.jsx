@@ -21,6 +21,7 @@ export const Root = () => {
       total += product.price;
     })
     console.log('total is', total);
+    alert(`Total is ${total}`)
     setProductsInCart([]);
     setResetCard(!resetCard);
   }
