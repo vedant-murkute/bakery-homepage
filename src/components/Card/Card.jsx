@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Card.module.css";
+// import blackForest from '../../assets/'
+// import brownie from '../../assets/brownie.jpg'
+// import chocolavaCake from '../../assets/choco-lava-cake.jpg'
+// import newyorkCheesecake from '../../assets/newyork-cheescake.jpg'
 
 export const Card = ({ product, handleCartChange, resetCard }) => {
   const [addToCart, setAddToCart] = useState(true);
@@ -15,7 +19,7 @@ export const Card = ({ product, handleCartChange, resetCard }) => {
 
   return (
     <div className={styles.card}>
-      {/* <img></img> */}
+      <img className={styles.thumbnail} alt='thumbnail' src={process.env.PUBLIC_URL + '/assets/' + product.image} />
       <h1>{product.name}</h1>
       <span>{product.description}</span>
       <span>Price: {product.price}</span>

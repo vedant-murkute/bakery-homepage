@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Card } from "../../components/Card/Card";
 import data from "../../constants/products.json";
+import styles from './Root.module.css';
 
 export const Root = () => {
   const [productsInCart, setProductsInCart] = useState([]);
@@ -25,8 +26,9 @@ export const Root = () => {
   }
 
   return (
-    <>
-      <div>
+    <div className={styles.root}>
+      <h1 className={styles.heading}>Products</h1>
+      <div className={styles.grid}>
         {data.list.map((product) => (
           <Card
             key={product.id}
@@ -37,6 +39,6 @@ export const Root = () => {
         ))}
       </div>
       <button type="button" onClick={handleClick}>Checkout</button>
-    </>
+    </div>
   );
 };

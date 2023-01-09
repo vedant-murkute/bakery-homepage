@@ -1,17 +1,24 @@
 .navbar{
   display: flex;
+  justify-content: space-between;
   align-items: center;
   height: 5rem;
   background-color: beige;
+}
+
+.link{
   text-decoration: none;
 }
 
-.navbar .link{
-  text-decoration: none;
+.bakeryHome{
+  font-size: 2rem;
+  margin-left: 15rem;
 }
 
 .rightPane{
   list-style: none;
   display: flex;
+  gap:2rem;
+  margin-right: 15rem;
 }
 
