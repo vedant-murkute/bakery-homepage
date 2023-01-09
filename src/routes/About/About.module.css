@@ -1,0 +1,10 @@
+.about{
+  margin: 0 15rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading{
+  align-self: center;
+  font-size: 3rem;
+}

@@ -6,6 +6,11 @@
   width: 25rem;
   height: 30rem;
   border: 1px solid;
+  transition: all .2s ease-in-out;
+}
+
+.card:hover{
+  transform: scale(1.1);
 }
 
 .thumbnail{

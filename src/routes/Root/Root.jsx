@@ -38,7 +38,7 @@ export const Root = () => {
           />
         ))}
       </div>
-      <button type="button" onClick={handleClick}>Checkout</button>
+      <button className={styles.checkoutBtn} type="button" onClick={handleClick}>Checkout</button>
     </div>
   );
 };
