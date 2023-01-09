@@ -1,10 +1,15 @@
-# Getting Started with Create React App
+# A homepage for a dummy bakery
 
+A bakery webpage developed using React where you can browse available products, add them to shopping cart and checkout with the total bill amount logged in the console.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Steps to run locally
 
-In the project directory, you can run:
+Clone the repo into your local machine. CD to the project directory and run the following commands:
+
+### `npm install`
+
+Installs all the dependencies required to run the app.
 
 ### `npm start`
 
@@ -13,6 +18,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+## Additional available commands
 
 ### `npm test`
 
